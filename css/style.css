@@ -1,0 +1,112 @@
+html, body {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px; }
+  @media (max-width: 768px) {
+    html, body {
+      font-size: 15px; } }
+
+h1 {
+  font-weight: bold;
+  font-family: 'Wire One', sans-serif;
+  font-size: 5 em; }
+
+h2 {
+  font-weight: bold;
+  font-family: 'Wire One', sans-serif;
+  font-size: 3 em; }
+
+h3 {
+  font-weight: bold;
+  font-family: 'Wire One', sans-serif;
+  font-size: 2.33333 em; }
+
+h4 {
+  font-weight: bold;
+  font-family: 'Wire One', sans-serif;
+  font-size: 2 em; }
+
+h5 {
+  font-weight: bold;
+  font-family: 'Wire One', sans-serif;
+  font-size: 1.8 em; }
+
+h6 {
+  font-weight: bold;
+  font-family: 'Wire One', sans-serif;
+  font-size: 1.66667 em; }
+
+* {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.row {
+  max-width: 100%; }
+
+header.main {
+  background-color: #94BFDB;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  min-height: 40px;
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+  header.main:hover span.name {
+    height: 2em !important; }
+  header.main span.name {
+    overflow: hidden; }
+
+main #carousel {
+  background-color: #444;
+  height: 100vh; }
+  main #carousel .carousel {
+    height: 95%; }
+    main #carousel .carousel .item img {
+      display: block;
+      height: 100vh;
+      width: 100%; }
+    main #carousel .carousel .owl-controls {
+      margin-top: -30px; }
+main #form {
+  background-color: #94BFDB; }
+
+.article-container {
+  border: 1px solid #ddd;
+  padding-bottom: 2em;
+  background: #fff; }
+
+.article-root {
+  background-color: #ECECEC;
+  z-index: 10; }
+
+article {
+  padding: 0 3em;
+  text-align: justify; }
+  article header {
+    text-align: center;
+    margin: 2em auto; }
+    article header time {
+      text-align: right; }
+  @media (max-width: 768px) {
+    article .row.body {
+      padding: 0 2em;
+      padding-bottom: 2em; } }
+  article p {
+    display: inline-block; }
+  article img {
+    height: 30vh;
+    float: left;
+    border: 0.5em solid #fff;
+    margin: 0.5em;
+    margin-left: 0;
+    display: inline-block; }
+
+form textarea {
+  height: 100%; }
+form input[type=submit] {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0; }
